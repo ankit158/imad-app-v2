@@ -19,9 +19,10 @@ button.onclick = function(){
         span.innerHTML = counter.toString();
     }
     } 
- };
+ 
     //take no action.wait.
  };
  //make the request
  request.open('GET','http://ankit158.imad.hasura-app.io/counter',true);
  request.send(null);
+};
