@@ -27,11 +27,11 @@ var articles={
        
                   },
     'article-two':{ 
-       title:"article-one-ankit158" ,
-       heading:"article-one",
-       date:"10 june 2017",
+       title:"article-two-ankit158" ,
+       heading:"article-two",
+       date:"11 june 2017",
        content:`<p>
-                 This is article one.Behold your breathe.
+                 This is article two.Behold your breathe.
                 </p>
                 <p>
                 That's doing nice.
