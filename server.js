@@ -10,7 +10,7 @@ var config = {
     database: 'ankit158',
     host: 'db.imad.hasura-app.io',
     port:'5432',
-    password:db-ankit158-48045
+    password: 'db-ankit158-48045'
 };
 
 app.get('/', function(req, res) {
