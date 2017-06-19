@@ -7,6 +7,7 @@ var crypto = require('crypto');
 var bodyParser = require('body-parser');
 app.use(morgan('combined'));
 app.use(bodyParser.json());
+var session = require('express-session');
 
 var config = {
     user: 'ankit158',
