@@ -8,6 +8,10 @@ var bodyParser = require('body-parser');
 app.use(morgan('combined'));
 app.use(bodyParser.json());
 var session = require('express-session');
+app.use( session ({
+    secret:'someRandomSecretValue',
+    cookie:{maxAge : 1000 * 60 * 60 * 24 * 30}
+}));
 
 var config = {
     user: 'ankit158',
